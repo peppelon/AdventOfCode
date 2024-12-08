@@ -1,0 +1,1 @@
+print(sum(len(s.strip()) - len(eval(s)) for s in open('data.txt')))
